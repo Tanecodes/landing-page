@@ -10,20 +10,63 @@ body {
   flex-direction: column;
   font-family: "roboto", sans-serif;
 }
+/* ---------------------------------------- */
+/* this is the hero container section */
+.hero-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  padding-left: 100px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  padding-right: 50px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
 
 .hero-container {
   background-color: #1F2937;
   
 }
 
-.hero-logo {
-  font-size: 24px;
-
+.hero-section {
+  display: flex;
 }
 
-.hero-section h1 {
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+}
+
+.section-2 {
+  flex-grow: 1;
+  height: 200px;
+  width: 200px;
+  border: solid;
+}
+
+.hero-section .para-1 {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
 }
 
+.hero-section .para-2 {
+  color: #e5e7eb;
+}
+/* hero container section ends here */
+/* --------------------------------------- */
