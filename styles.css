@@ -9,14 +9,13 @@ body {
   flex-direction: column;
   font-family: "roboto", sans-serif;
 }
-
+/* hero styles begin here */
 .hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
   padding: 0 200px;
-  padding-bottom: 50px;
   background-color: #1f2937;
 }
 
@@ -45,9 +44,37 @@ body {
 
 .hero-bottom {
   display: flex;
+  padding: 100px 200px;
+  background-color: #1f2937;
+  gap: 50px;
 }
 
 .bottom-left-container {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
+
+.bottom-left-container .para-1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.bottom-left-container .para-2 {
+  font-size: 18px;
+  color:#e5e7eb;
+  width: 400px;
+}
+
+button {
+  color: white;
+  background-color: #3882f6;
+  width: 100px;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+}
+/* hero styles end here */
+/* ------------------------------ */
+/* middle styles begin here */
