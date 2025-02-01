@@ -11,5 +11,43 @@ body {
 }
 
 .hero {
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 200px;
+  padding-bottom: 50px;
+  background-color: #1f2937;
+}
+
+.hero p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.hero ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.hero a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 16px;
+}
+
+.hero-bottom img {
+  width: 500px;
+  height: 250px;
+}
+
+.hero-bottom {
+  display: flex;
+}
+
+.bottom-left-container {
+  display: flex;
+  flex-direction: column;
 }
