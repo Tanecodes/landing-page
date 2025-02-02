@@ -78,3 +78,45 @@ button {
 /* hero styles end here */
 /* ------------------------------ */
 /* middle styles begin here */
+
+.upper-middle-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.middle-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px
+}
+
+.image-box {
+  width: 200px;
+  height: 200px;
+  border: 6px solid #3882f6;
+  border-radius: 20px;
+}
+
+ .image-box img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.image-box p {
+  text-align: center;
+  font-size: 18px;
+  color:#1f2937;
+  padding: 20px 0;
+}
+
